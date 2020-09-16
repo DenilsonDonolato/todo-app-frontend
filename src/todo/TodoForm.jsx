@@ -20,6 +20,12 @@ export default (props) => (
         icon="plus"
         onClick={props.handleAdd}
       />
+      <IconButton
+        // eslint-disable-next-line
+        style="info"
+        icon="search"
+        onClick={props.handleSearch}
+      />
     </Grid>
   </div>
 );
